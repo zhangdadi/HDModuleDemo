@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name     = 'HDModule'
 s.version  = '1.0.0'
-s.license  = 'MIT' //开源协议
+s.license  = 'MIT'#开源协议
 s.summary  = 'iOS组件化' //简单的描述
 s.homepage = 'https://github.com/zhangdadi/HDModuleDemo' //主页
 s.author   = { 'zhangdadi' => 'z_dadi@163.com' } //作者
