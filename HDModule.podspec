@@ -4,7 +4,7 @@ s.name         = "HDModule"
 s.version      = "1.0.0"
 s.summary      = "iOS组件化" //简单的描述
 
-s.homepage     = "https://github.com/zhangdadi/HDModuleDemo" //主页
+s.homepage     = https://github.com/zhangdadi/HDModuleDemo //主页
 s.license      = { :type => "MIT", :file => "FILE_LICENSE" }  //开源协议
 s.author             = { "zhangdadi" => "z_dadi@163.com" }
 s.platform     = :ios, "7.0"
