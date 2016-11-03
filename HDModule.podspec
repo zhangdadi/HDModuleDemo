@@ -11,7 +11,7 @@ s.framework = 'UIKit'  #依赖的framework
 s.requires_arc = true
 
   s.subspec 'HDCore' do |ss|
-    ss.source_files = 'HDModule/HDCore'
+    ss.source_files = 'HDModule/HDCore/**/*'
     ss.dependency 'LKDBHelper'
     ss.dependency 'MBProgressHUD'
   end
