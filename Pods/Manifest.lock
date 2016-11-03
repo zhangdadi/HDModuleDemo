@@ -1,0 +1,20 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - LKDBHelper (2.2.1):
+    - FMDB
+  - MBProgressHUD (0.9.2)
+
+DEPENDENCIES:
+  - LKDBHelper
+  - MBProgressHUD
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  LKDBHelper: a8d2ac92cde1f462a3314ab5e2629a527eb0cc54
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+
+PODFILE CHECKSUM: 515623f81201478e2483154bd442e70222570649
+
+COCOAPODS: 1.0.0
