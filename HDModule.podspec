@@ -7,12 +7,13 @@ s.homepage = 'https://github.com/zhangdadi/HDModuleDemo' //主页
 s.author   = { 'zhangdadi' => 'z_dadi@163.com' } //作者
 s.source   = { :git => 'https://github.com/zhangdadi/HDModuleDemo.git', :tag => "1.0.0" } //git路径、指定tag号
 s.platform = :ios, "7.0"
-s.framework = 'UIKit'  //依赖的framework
 s.requires_arc = true
 
 s.subspec 'HDCore' do |HDCore|
 jiaCore.source_files = 'HDModule/HDCore/*.{h,m}'
 jiaCore.dependency 'LKDBHelper'
 jiaCore.dependency 'MBProgressHUD'
+end
 
+s.framework = 'UIKit'  //依赖的framework
 end
